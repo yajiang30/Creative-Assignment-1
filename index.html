@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>Yan Bin Jiang's Creative Assignment 1</title>
+  <link rel="stylesheet" href="style.css" />
+  <!--Arrow image from https://matt-croak.medium.com/custom-scroll-back-to-top-arrow-with-color-detection-cae51f8592a5 
+    All the other images are taken by me. -->
+  <!--
+    1. This webpage is about my hobby of cooking and eating delicious food. It showcases some pictures of meals I have made.
+    2. Since, I'm not that good at designing, the webpage has a pretty simple layout. I looked for color schemes on colorhunt
+    and found a nice Easter/pastel theme. This color scheme has proven to be aesthetically pleasing with over 26,000 likes
+    on color hunt. I didn't choose a particular font since the default one was already readable and looked nice.
+    3. I used media query at the breakpoint 768px for mobile since it was what most people on the internet used.
+    I tried to make my images flexible and responsive but it wasn't working when I zoomed out, but it did stay inside the box.
+    4. All of my images conatined an alt attribute which describes the image. Made sure to set language to English in the
+    html tag and used article and section tags for SEO.
+    5. This project was meaningful beacause it allowed me to showcase my cooking with web development. I had some troubles
+    with implementing responsive images when the site was zoomed out and it took a while to get the arrow working.
+  -->
+</head>
+
+<body>
+  <main>
+    <section>
+      <h1>Cooking</h1>
+      <p>
+        I enjoy cooking for myself everyday. I find it relaxing coming home
+        and cooking dinner. I enjoy planning meals ahead or embrace my
+        creative side by just taking a look at what I have in the fridge and
+        making something on the fly. I like every cuisine and is always
+        looking forward to trying to make new dishes.
+      </p>
+    </section>
+
+    <section>
+      <h2>Japanese Food</h2>
+      <p>
+        I remember going to Japantown with my parents all the time and
+        grabbing a bento from the supermarket. Japanese food is my favorite
+        because the flavor is simple but delicious. I learned how to make
+        Japanese food mainly from YouTube.
+        <a href="https://www.youtube.com/@JKenjiLopezAlt" target="_blank"
+          title="J. Kenji López-Alt's YouTube Channel">Link to a Cooking Channel</a>
+      </p>
+      <section class="flex-container">
+        <figure class="flex-item">
+          <img src="images/nabe.png" title="nabe" alt="Picture of Japanese style Hot Pot that I made." />
+          <figcaption>Japanese style Hot Pot that I made</figcaption>
+        </figure>
+        <figure class="flex-item">
+          <img src="images/oyakodon.png" title="oyakodon"
+            alt="Picture of Japanese style chicken and egg over rice that I made." />
+          <figcaption>
+            Oyakodon (Japanese chicken and egg over rice) that I made
+          </figcaption>
+        </figure>
+      </section>
+    </section>
+
+    <section>
+      <h2>Other Cuisines</h2>
+      <p>
+        I enjoy all types of food. Growing up in San Francisco, I got to try
+        all types of cuisines. Mexican, Korean, Greek, Vietnamese, Italian,
+        and many more. Making Chinese food while being away from home reminds
+        me of the home cooked meals I used to eat everyday.
+      </p>
+      <section class="flex-container">
+        <figure class="flex-item">
+          <img src="images/tomato_eggs.png" title="tomato and egg"
+            alt="Picture of Chinese style tomato and eggs over rice that I made." />
+          <figcaption>
+            Chinese style tomato and eggs over rice that I made
+          </figcaption>
+        </figure>
+        <figure class="flex-item">
+          <img src="images/bibimbap.png" title="bibimbap"
+            alt="Picture of Korean style rice mix with veggies that I made." />
+          <figcaption>
+            Bibimbap (Korean rice mixed with veggies) that I made
+          </figcaption>
+        </figure>
+      </section>
+    </section>
+
+    <a href="#top" title="go back to top"><img id="arrow" src="images/arrow.png" alt="back to top button" /></a>
+  </main>
+  <footer>
+    <p>&copy; 2024 Yan Bin Jiang</p>
+  </footer>
+</body>
+
+</html>

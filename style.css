@@ -1,0 +1,70 @@
+/*
+color palette via https://colorhunt.co/palette/b1b2ffaac4ffd2daffeef1ff
+#B1B2FF
+#AAC4FF
+#D2DAFF
+#EEF1FF
+*/
+html {
+  scroll-behavior: smooth;
+}
+
+#arrow {
+  background-color: #d2daff;
+  border-radius: 100px;
+  padding: 1%;
+  margin-left: 89%;
+  width: 5%;
+}
+
+#arrow:hover {
+  width: 7%;
+  transition: ease-in 0.2s;
+}
+
+section, p {
+  color: #eef1ff;
+  background-color: #b1b2ff;
+  text-align: center;
+  border-radius: 90px;
+  padding: 10px;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin: 10px;
+}
+
+body {
+  background-color: #aac4ff;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.flex-items {
+  flex-basis: 100%;
+  min-width: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  min-width: 0;
+  width: 100%;
+}
